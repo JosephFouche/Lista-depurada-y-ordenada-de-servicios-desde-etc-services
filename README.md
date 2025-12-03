@@ -46,6 +46,20 @@ zope-ftp
 zserv
 
 
+🎯 Objetivo de la Tarea
+
+Extraer una lista limpia y única de los nombres de los servicios del sistema Linux.
+📝 Resumen de Pasos
+
+    Filtrar el Archivo: Tomar el archivo /etc/services y eliminar todas las líneas de comentarios (las que empiezan con #) y las líneas en blanco, dejando solo las entradas de servicios válidas.
+
+    Extraer Nombres: De esas líneas válidas, tomar solo la primera palabra (que es el nombre del servicio).
+
+    Limpiar y Ordenar: Ordenar alfabéticamente esos nombres y eliminar cualquier duplicado, asegurando que cada servicio aparezca solo una vez.
+
+    Guardar el Resultado: Guardar la lista final y limpia de nombres de servicios en un archivo llamado uniqueservices.txt en tu directorio personal (~/).
+
+    Contar (Condicional): Si todos los pasos anteriores se realizaron con éxito, contar cuántas líneas (servicios) tiene el archivo final.
 
 
 
